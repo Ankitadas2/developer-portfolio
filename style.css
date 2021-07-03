@@ -10,9 +10,11 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom: 150%;
 }
 .full{
     width:50%;
+    height: 80%;
     padding-left: 5%;
 }
 .half{
@@ -30,4 +32,14 @@ section{
     background-image: url(img.jpg);
     background-repeat: no-repeat;
     
+}
+.pro{
+    width:100%;
+    height: 80%;
+}
+.Dream{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: right;
 }
