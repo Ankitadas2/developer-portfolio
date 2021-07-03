@@ -5,20 +5,29 @@ body{
 h1{
     font-size:50px;
 }
+h2{
+    font-size: 20px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexibal{
     display:flex;
-    margin-bottom: 150%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 5%;
 }
 .full{
     width:50%;
     height: 80%;
     padding-left: 5%;
+    padding-right: 8%;
 }
 .half{
-    width:100%;
+    width:50%;
+    padding-right: 8%;
+    padding-left: 5%;
 }
 .link{
     text-decoration: orangered;
@@ -42,4 +51,28 @@ section{
     background-repeat: no-repeat;
     
     background-position: right;
+}
+.experience-item{
+    width:30%;
+    padding-left: 10%;
+    margin-left:3px;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 2px 3px 4px 3px grey;
+    border-left: 10px solid;
+}
+#web-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,orangered);
+    border-image-slice:2;
+
+}
+footer p{
+    text-align: center;
 }
